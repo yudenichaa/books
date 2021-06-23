@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  max-width: 480px;
+  flex-direction: column;
+  margin: 32px;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__label {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+  }
+
+  &__error-message {
+    margin-top: 8px;
+  }
+
+  &__submit-button {
+    align-self: flex-end;
+  }
+}

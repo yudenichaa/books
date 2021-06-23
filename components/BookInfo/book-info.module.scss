@@ -1,0 +1,19 @@
+.book-info {
+  max-width: 480px;
+  margin: 32px;
+
+  &__title {
+    margin-bottom: 12px;
+  }
+
+  &__description {
+    margin-bottom: 12px;
+  }
+
+  &__publication-year {
+    display: block;
+    margin-bottom: 18px;
+    color: #222222;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}

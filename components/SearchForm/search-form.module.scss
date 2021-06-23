@@ -1,0 +1,16 @@
+.search-form {
+  display: block;
+
+  &__term-input-container {
+    display: flex;
+  }
+
+  &__error-message {
+    margin-top: 8px;
+  }
+
+  &__submit-button {
+    align-self: center;
+    margin-left: 10px;
+  }
+}

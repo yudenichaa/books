@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "title": "In Search of Lost Time",
+      "description": "In Search of Lost Time, also translated as Remembrance of Things Past, novel in seven parts by Marcel Proust, published in French as À la recherche du temps perdu from 1913 to 1927. The novel is the story of Proust’s own life, told as an allegorical search for truth. It is the major work of French fiction of the early 20th century.",
+      "publicationYear": 1913,
+      "id": "kqawz7y5"
+    },
+    {
+      "title": "Ulysses",
+      "description": "Ulysses is a modernist novel by Irish writer James Joyce. Ulysses chronicles the appointments and encounters of the itinerant Leopold Bloom in Dublin in the course of an ordinary day, 16 June 1904.",
+      "publicationYear": 1904,
+      "id": "kqax01fc"
+    },
+    {
+      "title": "Don Quixote",
+      "description": "The plot revolves around the adventures of a noble (hidalgo) from La Mancha named Alonso Quixano, who reads so many chivalric romances that he loses his mind and decides to become a knight-errant (caballero andante) to revive chivalry and serve his nation, under the name Don Quixote de la Mancha.",
+      "publicationYear": 1605,
+      "id": "kqax0csv"
+    }
+  ]
+}

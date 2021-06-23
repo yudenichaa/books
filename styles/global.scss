@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #1769aa;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #1769aa;
+  cursor: pointer;
+  text-decoration: none;
+
+  &_remove {
+    border-color: #fc2a2a;
+    color: #fc2a2a;
+  }
+}
+
+.input {
+  padding: 10px;
+  border: 0;
+  border-bottom: 2px solid #1769aa;
+  background-color: #f2f2f2;
+  font-size: 1.25rem;
+  outline: none;
+  resize: none;
+}
+
+.error-message {
+  color: #fc2a2a;
+  font-size: 0.95rem;
+}

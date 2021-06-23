@@ -1,0 +1,23 @@
+.book {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    display: block;
+    margin-bottom: 8px;
+    color: #1769aa;
+  }
+
+  &__publication-year {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  &__highlighted-text {
+    margin-bottom: 8px;
+  }
+
+  &__mark {
+    background-color: yellow;
+  }
+}
