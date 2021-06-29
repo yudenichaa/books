@@ -81,10 +81,10 @@ export default function BooksList(): JSX.Element {
   if (books) {
     return (
       <div className={cn(styles['books-list'])}>
-        <Link href="/">
+        <Link href="/" shallow>
           <a className={cn('button', styles['books-list__home-link'])}>Home</a>
         </Link>
-        <Link href="new-book" shallow>
+        <Link href="/new-book" shallow>
           <a className={cn('button', styles['books-list__new-book-link'])}>
             Add new book
           </a>
