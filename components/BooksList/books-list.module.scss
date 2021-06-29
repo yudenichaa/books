@@ -2,11 +2,6 @@
   max-width: 480px;
   margin: 32px;
 
-  @media (min-width: 1024px) {
-    padding: 0;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   &__home-link {
     margin-right: 12px;
   }
